@@ -3,7 +3,7 @@
 - [rest and spread operator(...rest, ...spread)](restandspread.js)
 -[Strings and there methods](./string.js);
 -[Arrays](./Arrays.js);
--[]();
+-[GUESS THE NUMBER GAME](./guessTheno.js);
 -[]();
 -[]();
 -[]();

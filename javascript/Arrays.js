@@ -129,3 +129,51 @@ console.log(newArr);;
 
 
 */
+
+
+/*
+
+//PRACTICE SET 
+1.TAKE A INPUT FORM USER IN AN ARRAY 
+let arr = [1,2,3,4,5,6,7,83];
+for(let i =0 ;i<5 ; i++){
+  let a = prompt("Enter a number : ");
+  a = Number.parseInt(a);
+arr.push(a)
+}
+console.log(arr);
+
+2.JAB TAK 0 NA DAAL DIYA JAYE TAB TAK INPUT LETE RAHO
+let arr= [1];
+let a = -1;
+while(a != 0){
+  a = prompt("Enter a number : ")
+  a = Number.parseInt(a);
+  arr.push(a);
+}
+console.log(arr);
+
+3.filter FOR NUMBER DIVISIBLE BY 10 FORM A GIVEN ARRAY 
+let arr = [10,20,35,40,50]
+let a = arr.filter((number)=>{
+  if(number%10 == 0)
+  return number;
+  })
+console.log(a);
+
+4.CREATE A ARRAY OF SQUARES OF GIVEN NUMBER 
+let arr3 = [1,2,3,4,5]
+let a = arr3.map((e)=>{
+  return e*e;
+})
+  console.log(a);
+
+5. use reduce to calculate factorial of a given number form an arrya of first n natural number n being the number whose factorial needs to be calculated;
+5! = 5.4.3.2.1
+let arr = [1,2,3,4,5]
+let a = arr.reduce((h1, h2)=>{
+  return h1*h2;
+  })
+console.log(a);
+  
+  */
