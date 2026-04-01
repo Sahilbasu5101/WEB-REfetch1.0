@@ -1,0 +1,49 @@
+JavaScript Quirks List
+
+
+1. '5' + 2 = '52' but '5' - 2 = 3  
+
+2. == does type coercion, === strict comparison
+
+3. NaN !== NaN and typeof NaN = 'number'
+
+4. typeof null = 'object'
+
+5. 0.1 + 0.2 !== 0.3
+
+6. Falsy: false, 0, '', null, undefined, NaN
+
+7. typeof [] = 'object'
+8. [] == false → true
+9. {} == {} → false
+10. this depends on call context
+11. var hoisted, let/const not usable before init
+12. var function scope, let/const block scope
+13. Function declarations hoisted
+14. setTimeout with var loop issue
+15. map(parseInt) → [1, NaN, NaN]
+16. 1 + '2' + 3 = '123'
+17. undefined == null → true
+18. Sparse array length behavior
+19. delete leaves empty slot
+20. setTimeout not immediate
+21. 0 == false → true
+22. [] + [] = ''
+23. Arrow functions no own this
+24. Implicit globals without var/let/const
+25. arguments linked to params
+26. typeof function() = 'function'
+27. null >= 0 true but null > 0 false
+28. '' == 0 → true
+29. true + true = 2
+30. [] == ![] → true
+31. new Array(5) creates empty slots
+32. Math.max() = -Infinity
+33. JSON.stringify(undefined) → undefined
+34. Number(null) = 0
+35. parseInt radix issue
+36. isNaN('hello') → true
+37. Object.keys ignores non-enumerable
+38. for...in iterates keys
+39. for...of not for plain objects
+40. Functions are objects
