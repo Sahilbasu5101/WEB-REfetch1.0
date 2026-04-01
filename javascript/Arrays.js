@@ -112,12 +112,20 @@ let a = array.map(function(currentValue, index, arr){
   return currentValue +1;
 })
   console.log(a);
+
+//filter
+let arr2 = [1,2,3,4,5]
+let newArr = arr2.filter(function(a){
+  return a>2;
+})
+console.log(newArr);
   
+//reduce
+let arr3 = [1,2,3,4,5]
+let newArr = arr3.reduce(function(h1, h2){
+  return h1+h2;
+})
+console.log(newArr);;
+
 
 */
-let array = [1,2,3,4,5]
-let a = array.map(function(currentValue, index, arr){
-  console.log(currentValue, index, arr);
-  return currentValue +1;
-})
-console.log(a);
