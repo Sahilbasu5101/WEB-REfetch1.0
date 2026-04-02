@@ -4,9 +4,9 @@
 -[Strings and there methods](./string.js);
 -[Arrays](./Arrays.js);
 -[GUESS THE NUMBER GAME](./guessTheno.js);
--[]();
--[]();
--[]();
+-[BROWSER](./browser.js);
+-[DOM AND BOM MODEL OF JAVASCRIPT](./BROWSER/dom&bom.js);
+-[EVENTS AND OTEHR DOM PROPERTIES](./BROWSER/otherProp.js);
 -[]();
 -[]();
 -[]();
