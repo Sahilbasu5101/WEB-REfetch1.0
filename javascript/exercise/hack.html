@@ -1,0 +1,120 @@
+/*//////////////////////////////////////////////////
+🔥 1. Spread Operator (...)
+
+Used to expand elements (array/object).
+
+✅ Array Spread
+const arr1 = [1, 2];
+const arr2 = [3, 4];
+
+const combined = [...arr1, ...arr2];
+console.log(combined); // [1,2,3,4]
+✅ Copy Array (IMPORTANT)
+const arr = [1, 2, 3];
+const copy = [...arr];
+
+copy.push(4);
+console.log(arr);  // [1,2,3] (unchanged)
+
+👉 Shallow copy only
+
+✅ Object Spread
+const user = { name: "Sahil" };
+const newUser = { ...user, age: 20 };
+
+console.log(newUser);
+⚠️ Override Property
+const obj = { a: 1, b: 2 };
+const newObj = { ...obj, b: 10 };
+
+console.log(newObj); // b = 10
+//////////////////////////////////////////////////////
+🔥 2. IIFE (Immediately Invoked Function Expression)
+
+Function jo declare hote hi run ho jaye
+
+✅ Syntax
+(function () {
+  console.log("IIFE executed");
+})();
+✅ With Arrow Function
+(() => {
+  console.log("Arrow IIFE");
+})();
+💡 Why use IIFE?
+Private scope banane ke liye
+Global pollution avoid karne ke liye
+Example:
+(function () {
+  let secret = "hidden";
+  console.log(secret);
+})();
+
+// console.log(secret); ❌ error
+////////////////////////////////////////////////////////
+🔥 3. Destructuring
+✅ Array Destructuring
+const arr = [10, 20, 30];
+
+const [a, b, c] = arr;
+console.log(a, b, c);
+Skip Values
+const [x, , z] = [1, 2, 3];
+console.log(x, z); // 1, 3
+Default Values
+const [a = 5, b = 10] = [1];
+console.log(a, b); // 1, 10
+✅ Object Destructuring
+const user = {
+  name: "Sahil",
+  age: 20
+};
+
+const { name, age } = user;
+Rename Variable
+const { name: username } = user;
+console.log(username);
+Default Value
+const { city = "Delhi" } = user;
+Nested Destructuring
+const user = {
+  name: "Sahil",
+  address: {
+    city: "Delhi"
+  }
+};
+
+const { address: { city } } = user;
+///////////////////////////////////////////////////////////
+🔥 4. Hoisting
+
+👉 JS moves declarations to top before execution
+
+✅ Variable Hoisting (var)
+console.log(x); // undefined
+var x = 10;
+
+Internally:
+
+var x;
+console.log(x);
+x = 10;
+❌ let & const
+console.log(a); // ❌ ReferenceError
+let a = 10;
+
+👉 Reason: Temporal Dead Zone (TDZ)
+
+✅ Function Hoisting
+sayHi(); // works
+
+function sayHi() {
+  console.log("Hello");
+}
+❌ Function Expression
+sayHi(); // ❌ error
+
+var sayHi = function () {
+  console.log("Hello");
+};
+*/
