@@ -14,7 +14,7 @@
 // console.timeEnd("for loop")
 
 
-document.body.style.backgroundColor = "green";
+// document.body.style.backgroundColor = "green";
 
 
 

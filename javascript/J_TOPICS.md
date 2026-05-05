@@ -1,9 +1,9 @@
 # My JS Files
 -[QUIRKS IN JAVASCRIPTS](./BASIC/QUIRKS.txt);
 - [rest and spread operator(...rest, ...spread)](./BASIC/restandspread.js)
--[Strings and there methods](./BASICS/string.js);
--[Arrays](./BASICS/Arrays.js);
--[GUESS THE NUMBER GAME](./BASICS/guessTheno.js);
+-[Strings and there methods](./BASIC/string.js);
+-[Arrays](./BASIC/Arrays.js);
+-[GUESS THE NUMBER GAME](./BASIC/guessTheno.js);
 -[BROWSER](./BROWSER/browser.js);
 -[DOM AND BOM MODEL OF JAVASCRIPT](./BROWSER/dom&bom.js);
 -[EVENTS AND OTEHR DOM PROPERTIES](./BROWSER/otherProp.js);

@@ -1,4 +1,4 @@
-// // let name = "sahil"
+let name = "sahil"
 // console.log(name.length);
 // console.log(name.toUpperCase());
 // console.log(name.toLowerCase());
@@ -27,7 +27,7 @@ String charAt()
 let text = "HELLO WORLD";
 let char = text.charAt(0);
 
-String charCodeAt()
+// String charCodeAt()
 let text = "HELLO WORLD";
 let char = text.charCodeAt(0);
 
@@ -70,12 +70,11 @@ typeof
 // const sentence = `the quick brown fox jumps over the lazy dog.`
 // const word = 'FOX';
 // let newWord = word.toLowerCase();
+// console.log(`the word "${newWord}" ${sentence.includes(newWord) ? "is" : "is not"} in the sentence`);
 
-// console.log(`the word "${newWord}" ${sentence.includes(word) ? "is" : "is not"} in the sentence`);
-
-let str = "Please give rs 1000";
-let amount = Number.parseInt(str.slice(15));
-amount++;
-console.log(amount);
-console.log(typeof( amount));
+// let str = "Please give rs 1000";
+// let amount = Number.parseInt(str.slice(15));
+// amount++;
+// console.log(amount);
+// console.log(typeof( amount));
 

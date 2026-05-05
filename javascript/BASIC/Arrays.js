@@ -8,7 +8,8 @@
 
 // let num1 = [1,2,3,4,5,6];
 // console.log(num1.length);
-// delete num1[0]; //[empty, 2, 3, 4, 5, 6]
+// delete num1[0];
+// console.log(num1);//[empty, 2, 3, 4, 5, 6]
 // console.log(num1.length);
 // console.log(num1[0]);//undefined
 

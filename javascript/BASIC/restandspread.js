@@ -22,11 +22,12 @@ let obj = {
 // console.log({name : 'john', age : 20, ...obj});
 // console.log({name : "mona"});
 
-console.log(Object.keys(obj));//object ko array bana deta hai 
+// console.log(Object.keys(obj));//object ko array bana deta hai 
+// console.log(Object.values(obj));
 
-for(let it in obj){
-  console.log(`${it}->${obj[it]}`);
-}
+// for(let it in obj){
+//   console.log(`${it}->${obj[it]}`);
+// }
 
 
 
